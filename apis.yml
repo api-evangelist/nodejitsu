@@ -1,7 +1,24 @@
 aid: nodejitsu
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nodejitsu.png
 name: Nodejitsu
-description: Nodejitsu is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Nodejitsu Inc. was a cloud Platform-as-a-Service (PaaS) for hosting and deploying Node.js
+  applications, founded in New York in April 2010 by Charlie Robbins, Marak Squires, and Paolo Fragomeni.
+  It offered a `jitsu` command-line deployment tool and an application hosting platform, and stewarded
+  popular open-source Node.js projects (forever, jitsu, flatiron, haibu, node-http-proxy). GoDaddy
+  acquired Nodejitsu in February 2015 and wound down the PaaS the same year, directing customers to
+  migrate elsewhere. The company is defunct - the nodejitsu.com domain no longer resolves and there is
+  no live API surface; only the archived GitHub organization survives.
 url: https://raw.githubusercontent.com/api-evangelist/nodejitsu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,29 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Hosting
+- Platform as a Service
+- Node.js
+- Cloud
+- Deployment
+- Defunct
+common:
+- type: GitHubOrganization
+  url: https://github.com/nodejitsu
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
